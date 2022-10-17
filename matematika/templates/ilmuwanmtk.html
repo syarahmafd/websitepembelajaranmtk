@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1><center>Ilmuwan Matematika</center></h1>
+    <h2><justify>Berikut adalah Tokoh Matematika dunia</justify></h2>
+
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+    
+{% endblock %}

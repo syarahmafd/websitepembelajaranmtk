@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1><center>Sejarah Matematika</center></h1>
+    <h2><justify>Berikut adalah sejarah perkembangan matematika dunia</justify></h2>
+ 
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+    
+{% endblock %}
